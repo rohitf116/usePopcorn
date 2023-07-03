@@ -14,6 +14,7 @@ const textStyle = {
 };
 const StarRating = ({ maxRating = 10 }) => {
   const [rating, setRating] = useState(0);
+
   return (
     <div style={containerStyle}>
       <div style={starContainerStyle}>
